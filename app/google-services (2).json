@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "286650056629",
+    "project_id": "e-copilot-435207-b0",
+    "storage_bucket": "e-copilot-435207-b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286650056629:android:38225e8871c2d0b576a3fc",
+        "android_client_info": {
+          "package_name": "com.legalist.newchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkBzUj5knpIhO7UPCnR0BvgG9yyeK35KM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

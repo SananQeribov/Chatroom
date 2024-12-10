@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#D9D9D9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:id="@+id/nature"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/up" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="169dp"
+        android:layout_height="124dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="111dp"
+        android:src="@drawable/circle"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp" />
+
+    <!-- Text rəngini tənzimləyir -->
+
+
+    <EditText
+        android:id="@+id/Name_edittext"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/AgeextText"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name_edittext"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Enter your age"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#808080"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="197dp"
+        android:background="@drawable/stroke"
+        android:backgroundTint="#2962FF"
+        android:text="Profili yenile"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@color/white"
+        android:clickable="true"
+        android:padding="0dp"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/primaryblue"
+        app:itemTextColor="@color/closed_blue"
+        app:menu="@menu/bottom_navmenu"
+        tools:ignore="NotSibling" />
+</RelativeLayout>

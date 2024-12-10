@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/options_chat"
+        android:icon="@drawable/baseline_chat_24"
+        android:title="Chat"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/options_menu_profile"
+        android:icon="@drawable/user"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/options_menu_sign_out"
+        android:icon="@drawable/arrow"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom" />
+
+</menu>
+
